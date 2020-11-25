@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <svg id="Layer_1" width="500px" height="500px" >
+        <polygon fill="none" stroke="lavender" stroke-miterlimit="10" stroke-width="30" 
+        points="70 24 119.574 60.369 100.145 117.631 50.855 101.631 3.426 54.369"> </polygon>
+    </svg>
+
+
+    <script src="anime.min.js"> </script>
+
+    <script>
+        anime({
+            targets: '#Layer_1 polygon',
+            points: [
+            { value: [
+                '70 24 119.574 60.369 100.145 117.631 50.855 101.631 3.426 54.369',
+                '70 41 118.574 59.369 111.145 132.631 60.855 84.631 20.426 60.369']
+            },
+            { value: '70 6 119.574 60.369 100.145 117.631 39.855 117.631 55.426 68.369' },
+            { value: '70 57 136.574 54.369 89.145 100.631 28.855 132.631 38.426 64.369' },
+            { value: '70 24 119.574 60.369 100.145 117.631 50.855 101.631 3.426 54.369' }
+            ],
+            easing: 'easeOutQuad',
+            duration: 2000,
+            loop: true
+        });
+
+        
+
+    </script>
+
+    
+
+
+</body>
+</html>

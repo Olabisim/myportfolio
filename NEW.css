@@ -1,0 +1,254 @@
+
+section section{
+    overflow: hidden;
+}
+section section:nth-of-type(1){
+    height: 1300px;
+    background-image: url('landing_page.pn');
+    background-size: 100% 100%;
+    
+}
+
+section section:nth-of-type(1) .section_one_div{ 
+    height: 200px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+section section:nth-of-type(1) .section_one_div h2{ 
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+section section:nth-of-type(1) .section_one_div h2:nth-of-type(1){ 
+    padding-top: 55px;
+}
+
+.the_complete_circle {
+
+    padding-top: 32px;
+    padding-right: 60px;
+    background:none;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
+section section:nth-of-type(1) .section_one_div h2:nth-of-type(3){
+    float: right;
+}
+section section:nth-of-type(1) .section_one_div h2 a{ 
+    color: red;
+}
+
+
+section section:nth-of-type(1) .section_two_div{ 
+    height: 200px;
+    padding-top: 20px
+}
+section section:nth-of-type(1) .section_two_div h2{ 
+    font-size: 40px;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 100;
+    color: #9595ea;
+    padding-bottom: 10px;
+}
+section section:nth-of-type(1) .section_two_div h2:nth-of-type(2) { 
+    color: red;
+}
+
+
+section section:nth-of-type(1) .section_three_div{ 
+    height: 400px;
+    text-align: center;
+}
+
+section section:nth-of-type(1) .section_three_div .videopack{ 
+    width: 200px;
+    height: 200px;
+}
+
+
+section section:nth-of-type(1) .section_four_div{ 
+    height: 200px;
+}
+
+
+section section:nth-of-type(1) .section_five_div{ 
+    padding-top: 10px;
+    height: 200px;
+}
+
+section section:nth-of-type(1) .section_five_div .col-sm-4{ 
+    text-align: center;
+    text-align: -moz-center;
+}
+
+section section:nth-of-type(1) .section_five_div .col-sm-4 div{ 
+}
+.for_icon {
+    background-color: white;
+}
+.for_icon i{
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px 0px 0px 35px;
+}
+
+
+
+
+section section:nth-of-type(2){
+    height: 680px;
+}
+section section:nth-of-type(2) .col-sm-4 {
+    height: 500px;
+    background: rgb(108, 108, 148);
+}
+section section:nth-of-type(2) .col-sm-4 span{
+    text-align: center;
+    display: block;
+}
+section section:nth-of-type(2) .col-sm-4 h2 span{
+    font-weight: bolder;
+    display: inline;
+}
+h2 {
+    text-align: center;
+}
+
+.carousel_div {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+section section:nth-of-type(3){
+    height: 2740px;
+}
+
+h2.left, h2.right {
+    display: contents;
+}
+section section:nth-of-type(3) .somw {
+    color: red;
+    padding-bottom: 30px;
+}
+.col-sm-9 h2{
+    color: #9595ea;
+    font-weight: 900;
+    opacity: 0;
+
+}
+
+
+section section:nth-of-type(3) .leaout{
+    height: 500px;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.margin-top {
+    margin-top: 230px;
+}
+.red_bg {
+    padding: 200px 20px 20px 20px;
+    background: rgb(255, 0, 0, 0.5);
+    color:white;
+    font-weight: 900;
+}
+.adjust_it {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+.adjust_it2 {
+    position: relative;
+}
+video {
+    width: 500px;
+}
+
+
+
+
+
+
+section section:nth-of-type(4){
+    height: 580px;
+    margin: auto;
+}
+
+section section:nth-of-type(4) h2:nth-of-type(2){
+
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid red;
+    background: red;
+    font-weight: 900;
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+
+}
+
+section section:nth-of-type(4) h2:nth-of-type(2) a{
+    color: white;
+}
+.h2_section4 {
+
+    font-weight: 900;
+    color: #9595ea;
+
+}
+
+
+
+section section:nth-of-type(5){
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+section section:nth-of-type(5) i{
+    width: 50px;
+    height: 50px;
+    color:red;
+    margin: 0px 10px 10px 0px;
+    padding: 15px;
+    border: 1px solid #9595ea;
+    border-radius: 50%;
+    font-size: 23px;
+    transition: 0.5s;
+}
+section section:nth-of-type(5) i:hover{
+    background: red;
+    margin: 0 2% 0 1.5%;
+    color: white;
+    transform: rotateZ(720deg);
+
+}
+
+
+.left{
+    float: left;
+}
+.right {
+    float: right;
+}
+
+
+@media screen and (min-width: 1200px){
+
+}
